@@ -86,7 +86,7 @@ for  text in text11:
     touroffer.append(text.get_text().strip())
 
 f = open("cruise.csv", "w")
-Titlestring="Cruise,Destination,Offer,Offer_Avalibility,Special,Conditions,Period,Time,Special_Price,Full_Price"
+Titlestring="Cruise,Destination,Offer,Offer_Availability,Special,Conditions,Period,Time,Special_Price,Full_Price"
 f.write(Titlestring+"\n")
 for n in range(nooftours-1):
     
