@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}
+    <h2>&nbsp;&nbsp;&nbsp;Welcome to Home Page </h2>
+    <h1> &nbsp;&nbsp;&nbsp; Top cruise Destinations! </h1>
+    &nbsp;&nbsp;<img src="https://wallpapercave.com/wp/wp2439694.jpg" alt="Trulli" width="500" height="300">
+    <p> &nbsp;&nbsp;<a href="{{ url_for('results') }}">Click here to see price listing!</a> </p>
+    {% endblock %}
+</body>
+</html>
